@@ -1,15 +1,7 @@
-import "./styles/index.scss";
-const cookieRecipie = {
-  CookieDough: 2,
-  heat: 1,
-  chocolateChips: 4,
-};
+import { render } from "react-dom";
+import App from "./components/App";
 
-const cookieBaseRecipie = {
-  ...cookieRecipie,
-  dough: 1,
-  chocolateChips: 4,
-}
 
-console.log(cookieRecipie);
-console.log(cookieBaseRecipie);
+render(<App />, document.getElementById("root"));
+
+
