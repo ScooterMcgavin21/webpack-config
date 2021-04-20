@@ -1,3 +1,4 @@
+import "./styles/index.scss";
 const cookieRecipie = {
   CookieDough: 2,
   heat: 1,
